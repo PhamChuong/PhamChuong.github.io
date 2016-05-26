@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-md-6" data-scroll-reveal="enter from the right after .5s">
                     <div class="profile-details section-box">
-                        <h2 class="title">Summary</h2>
+                        <h2 class="title"><strong>Summary</strong></h2>
                         <div class="about-content">
                             <p>
                                 I'm Pham Duy Hoang Chuong, a web developer with 2 years of experience in Python technologies, with good knowledge of Database Design, Design Pattern, Object-Oriented Analysis and Design. 
@@ -94,13 +94,14 @@
                             
                         </div>
                         <!-- /.about-content -->
-                        <a href="assets/[Developer][Pham Duy Hoang] Resume.pdf" class="btn fa-download download-btn">Resume</a>
+                        <a href="assets/[Developer][Pham Duy Hoang] Resume.pdf" class="btn fa-download download-btn"
+                        title="HTTP 404!" data-toggle="tooltip">Resume</a>
                     </div>
                     <!-- /.profile-details -->
                 </div>
                 <div class="col-md-3" data-scroll-reveal="enter from the right after .5s">
                     <div class="profile-details section-box">
-                        <h2 class="title">Contact Info</h2>
+                        <h2 class="title"><strong>Contact Info</strong></h2>
                         <address>
                             <ul class="address-line">
                                 <li class="fa-map-marker">132 Cong Hoa. Tan Binh District, Ho Chi Minh City</li>
@@ -175,7 +176,7 @@
                             <li>Good understanding software design, database design, RestfulAPI, ...</li>
                             <li>Good time management, presentation and teamwork skills ...</li>
                         </ul>
-                        <h2 class="box-title">System and cloud</h2>
+                        <h2 class="box-title"><strong>System and cloud</strong></h2>
                         <ul>
                             <li>Linux , Debian , Ubuntu, Centos ....</li>
                             <li>Docker , Salstack, Ansible ...</li>
@@ -315,6 +316,11 @@
     </footer> -->
     <!-- /#footer -->
     <!-- JavaScript Library and Plugins -->
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
     <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.parallax.js"></script>
